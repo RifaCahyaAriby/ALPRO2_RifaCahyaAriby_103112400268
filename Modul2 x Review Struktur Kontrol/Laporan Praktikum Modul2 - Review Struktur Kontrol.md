@@ -63,7 +63,7 @@ fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 > Kode tersebut merupakan program yang meninta input string dari pengguna sebanyak 3 kali, kemudian menampilkan output awal dan akhir dari string tersebut. Output awal adalah gabungan dari ketiga string yang diinputkan, sedangkan output akhir adalah gabungan dari ketiga string yang diinputkan tetapi dengan aturan yang dibalik
 
 ## Output
-![[2a no1.png]]
+![Output](output/2a%no1.png)
 
 ___
 
