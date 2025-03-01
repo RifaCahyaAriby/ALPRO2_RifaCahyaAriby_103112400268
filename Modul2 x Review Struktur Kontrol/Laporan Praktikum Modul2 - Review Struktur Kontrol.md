@@ -63,7 +63,7 @@ fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 > Kode tersebut merupakan program yang meninta input string dari pengguna sebanyak 3 kali, kemudian menampilkan output awal dan akhir dari string tersebut. Output awal adalah gabungan dari ketiga string yang diinputkan, sedangkan output akhir adalah gabungan dari ketiga string yang diinputkan tetapi dengan aturan yang dibalik
 
 ## Output
-![Output](output/2a%no1.png)
+![Output](output/2a%20no1.png)
 
 ___
 
@@ -92,8 +92,7 @@ import "fmt"
 ```
 
 ## Output
-
-![[2a no2.png]]
+![Output](output/2a%20no2.png)
 
 ---
 
@@ -132,7 +131,7 @@ func main() {
 > Program diatas adalah untuk menghitung luas dan volume sesuai algoritma yang ada pada soal lalu %.4f\n dipakai untuk menghasilkan 4 digit angka sebelum koma 
 
 ## Output
-![[2a no3.png]]
+![Output](output/2a%20no3.png)
 ___
 
 > 4. Dibaca nilai temperatur dalam derajat Celsius. Nyatakan temperatur tersebut dalam Fahrenheit
@@ -173,7 +172,7 @@ func main() {
 > Program ini meminta input suhu dalam Celsius dari pengguna, kemudian mengonversinya ke Reamur, Fahrenheit, dan Kelvin, dan akhirnya menampilkan hasil konversi tersebut.
 
 ## Output
-![[2a no4.png]]
+![Output](output/2a%20no4.png)
 
 >5. Tipe karakter sebenarnya hanya apa yang tampak dalam tampilan. Di dalamnya tersimpan
 > dalam bentuk biner 8 bit (byte) atau 32 bit (rune) saja.
@@ -207,7 +206,7 @@ func main() {
 > Program ini menerima lima input bilangan bulat dan menginterpretasikannya sebagai kode ASCII untuk karakter, lalu mencetak kelima karakter tersebut. Selanjutnya, program menerima tiga input karakter, menambahkan 3 ke masing-masing kode ASCII karakter tersebut, dan mencetak tiga karakter baru hasil penambahan. Singkatnya, program ini mengonversi angka menjadi karakter dan melakukan pergeseran karakter berdasarkan kode ASCII.
 
 ## Output
-![[2a no5.png]]
+![Output](output/2a%20no5.png)
 
 # SOAL 2B
 
@@ -221,7 +220,7 @@ func main() {
 > sebanyak 5 kali percobaan. Kemudian program akan menampilkan true apabila urutan
 > warna sesuai dengan informasi yang diberikan pada paragraf sebelumnya, dan false untuk
 > urutan warna lainnya.
->![[Pasted image 20250228184331.png]]
+>![Output](output/Pasted%20image%2020250228184331.png)
 
 
 ```go
@@ -245,13 +244,13 @@ func main() {
 
 Program ini mensimulasikan 5 percobaan, di mana pengguna memasukkan 4 kata. Program memeriksa apakah setiap input sesuai dengan urutan "merah kuning hijau ungu". Jika ada satu kesalahan, hasilnya akan false. Namun, logika kondisi sebaiknya menggunakan || agar mendeteksi kesalahan dengan benar, bukan && yang selalu false kecuali semua salah.
 ## Output
-![[2b no1.png]]
+![Output](output/2b%20no1.png)
 
 > 2.  Suatu pita (string) berisi kumpulan nama-nama bunga yang dipisahkan oleh spasi dan ‘–‘,
 > contoh pita diilustrasikan seperti berikut ini.
 > Pita: mawar – melati – tulip – teratai – kamboja – anggrek
 > Buatlah sebuah program yang menerima input sebuah bilangan bulat positif (dan tidak nol)N, kemudian program akan meminta input berupa nama bunga secara berulang sebanyakN kali dan nama tersebut disimpan ke dalam pita.(Petunjuk: gunakan operasi penggabungan string dengan operator “+” ). Tampilkan isi pita setelah proses input selesai.
-> ![[Pasted image 20250228184409.png]]
+> ![Output](output/Pasted%20image%2020250228184409.png)
 
 
 ```go
@@ -281,7 +280,7 @@ func main () {
 > Program ini mengambil sejumlah input bunga dari pengguna, kemudian menggabungkannya menjadi sebuah string yang disebut "pita" dengan pemisah " – ".
 
 ## Output
-![[2b no2.png]]
+![Output](output/2b%20no2.png)
 
 >3. Setiap hari Pak Andi membawa banyak barang belanjaan dari pasar dengan mengendarai
 > sepeda motor. Barang belanjaan tersebut dibawa dalam kantong terpal di kiri-kanan motor.
@@ -290,7 +289,7 @@ func main () {
 > Buatlah program Pak Andi yang menerima input dua buah bilangan real positif yang
 > menyatakan berat total masing-masing isi kantong terpal. Program akan terus meminta
 > input bilangan tersebut hingga salah satu kantong terpal berisi 9 kg atau lebih.
-> ![[Pasted image 20250228184827.png]]
+> ![Output](output/Pasted%20image%2020250228184827.png)
 
 ```go
 package main
@@ -316,7 +315,7 @@ func main() {
 >Program ini mensimulasikan apakah sepeda motor Pak Andi akan oleng berdasarkan berat belanjaan di kedua kantong. Program akan terus meminta input berat belanjaan sampai total berat melebihi 150 atau salah satu berat bernilai negatif. Jika selisih berat kedua kantong lebih dari atau sama dengan 9, program akan mencetak "Sepeda motor pak Andi akan oleng: true", jika tidak, program akan mencetak "Sepeda motor pak Andi akan oleng: false".
 
 ## Output
-![[2b no3.png]]
+![Output](output/2b%20no3.png)
 
 4. 
 $$
@@ -326,8 +325,8 @@ Buatlah sebuah program yang menerima input sebuah bilangan sebagai K, kemudian
 menghitung dan menampilkan nilai f(K) sesuai persamaan di atas.
 √2 merupakan bilangan irasional. Meskipun demikian, nilai tersebut dapat dihampiri
 dengan rumus berikut:
-![[Pasted image 20250228185224.png]]
-![[Pasted image 20250228185140.png]]
+![Output](output/Pasted%20image%2020250228185224.png)
+![Output](output/Pasted%20image%2020250228185140.png)
 Modifikasi program sebelumnya yang menerima input integer 𝐾 dan menghitung √2
 untuk 𝐾 tersebut. Hampiran √2 dituliskan dalam ketelitian 10 angka di belakang koma.
 
@@ -353,7 +352,7 @@ func main() {
 ```
 > Program ini menghitung hasil perkalian berulang berdasarkan input bilangan bulat `k`. Perulangan dilakukan sebanyak `k` kali, di mana setiap iterasi mengalikan hasil sebelumnya dengan suatu pecahan yang numerator dan denumeratornya dihitung berdasarkan nilai `k`. Hasil akhir dari perkalian tersebut, dengan format 10 angka desimal di belakang koma, dicetak ke layar. Dapat disimpulkan bahwa program ini mengimplementasikan sebuah fungsi matematika yang hasilnya bergantung pada nilai `k`.
 ## Output
-![[2b no4.png]]
+![Output](output/2b%20no4.png)
 
 # Soal 2C
 
@@ -365,7 +364,7 @@ func main() {
 > 500 gram, maka tambahan biaya kirim hanya Rp. 5,- per gram saja. Tetapi jika kurang dari
 > 500 gram, maka tambahan biaya akan dibebankan sebesar Rp. 15,- per gram. Sisa berat
 > (yang kurang dari 1kg) digratiskan biayanya apabila total berat ternyata lebih dari 10kg.
-![[Pasted image 20250228190238.png]]
+![Output](output/Pasted%20image%2020250228190238.png)
 
 ```go
 package main
@@ -423,12 +422,12 @@ func main() {
 > Program ini menghitung total biaya pengiriman parsel berdasarkan beratnya. Berat parsel dalam gram diinput, lalu dihitung biaya dasar berdasarkan kilogram dan biaya tambahan berdasarkan sisa gram. Biaya tambahan berbeda tergantung sisa gram dan total kilogram. Terakhir, program menampilkan detail berat dan biaya, serta total biaya pengiriman.
 
 ## Output
-![[2c no1.png]]
+![Output](output/2c%20no1.png)
 
 > 2. Diberikan sebuah nilai akhir mata kuliah (NAM) [0..100] dan standar penilaian nilai mata
 > kuliah (NMK) sebagai berikut:
-> ![[Pasted image 20250228190837.png]]
-> ![[Pasted image 20250228190906.png]]
+> ![Output](Pasted%20image%2020250228190837.png)
+> ![Output](Pasted%20image%2020250228190906.png)
 
 ``` go
 package main
@@ -482,7 +481,7 @@ Jawaban :
 > Buatlah program yang menerima input sebuah bilangan bulat b dan b > 1. Program harus
 > dapat mencari dan menampilkan semua faktor dari bilangan tersebut!
 > Bilangan bulat b > 0 merupakan bilangan prima p jika dan hanya jika memiliki persis duafaktor bilangan saja, yaitu 1 dan dirinya sendiri.Lanjutkan program sebelumnya. Setelah menerima masukan sebuah bilangan bulat b > 0.Program tersebut mencari dan menampilkan semua faktor bilangan tersebut. Kemudian,program menentukan apakah b merupakan bilangan prima.
-> ![[Pasted image 20250228191454.png]]
+> [Output](output/Pasted%20image%2020250228191454.png)
 
 ``` go
 package main
@@ -511,4 +510,4 @@ func main() {
 ```
 > Program ini menerima input bilangan bulat : b, kemudian menampilkan faktor-faktor dari bilangan tersebut. Setelah menampilkan faktor, program menentukan apakah bilangan tersebut prima atau bukan. Jika bilangan hanya memiliki dua faktor (1 dan bilangan itu sendiri), maka program akan mencetak "Prima: true". Jika tidak, program akan mencetak "Prima: false". Singkatnya, program ini melakukan faktorisasi bilangan dan menentukan keprimaannya.
 ## Output
-![[2c no3.png]]
+![Output](output/2c%20no3.png)
