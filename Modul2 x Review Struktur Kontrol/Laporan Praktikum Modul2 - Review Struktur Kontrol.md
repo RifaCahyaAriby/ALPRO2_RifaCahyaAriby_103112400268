@@ -1,5 +1,7 @@
+# Laporan Praktikum Modul2 - Review Struktur Kontrol
 ___
-<center>Nama : Rifa Cahya Ariby <center>
+<center>Nama : Rifa Cahya Ariby<center>
+	
 <center>NIM : 103112400268 <center>
 
 
