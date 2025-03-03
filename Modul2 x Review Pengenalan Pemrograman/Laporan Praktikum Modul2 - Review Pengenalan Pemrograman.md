@@ -1,4 +1,4 @@
-<h1 align="center">Laporan Praktikum Modul2 - Review Struktur Kontrol</h1>
+<h1 align="center">Laporan Praktikum Modul2 - Review Pengenalan Pemrograman</h1>
 <center>Nama : Rifa Cahya Ariby <center>
 <center>NIM : 103112400268 <center>
 
