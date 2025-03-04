@@ -10,7 +10,7 @@ ___
 Bahasa Go atau yang biasa di sebut Go lang menawarkan pemrograman yang simpel namun andal, dengan sintaks yang lugas dan efisien. Program Go wajib memiliki package main dan fungsi main() sebagai gerbang awal eksekusi. Pengembangan meliputi penulisan kode dalam berkas .go, kompilasi dengan perintah go build, dan menjalankan program lewat terminal. Go menyediakan beragam tipe daTa seperti integer, float, boolean, dan string, serta mendukung deklarasi variabel yang fleksibel. Kontrol alur program mencakup perulangan for dalam berbagai bentuk, serta percabangan bersyarat dengan if-else dan switch-case untuk pengambilan keputusan.
 
 
-# SOAL 2A
+# Soal 2A
 
 
 > 1. Telusuri program berikut dengan cara mengkompilasi dan mengeksekusi program. Silakan masukan data yang sesuai sebanyak yang diminta program. Perhatikan keluaran yang diperoleh. Coba terangkan apa sebenarnya yang dilakukan program tersebut?
@@ -210,7 +210,7 @@ func main() {
 ## Output
 ![Output](output/2a%20no5.png)
 
-# SOAL 2B
+# Soal 2B
 
 > 1. Siswa kelas IPA di salah satu sekolah menengah atas di Indonesia sedang mengadakan
 > praktikum kimia. Di setiap percobaan akan menggunakan 4 tabung reaksi, yang mana
