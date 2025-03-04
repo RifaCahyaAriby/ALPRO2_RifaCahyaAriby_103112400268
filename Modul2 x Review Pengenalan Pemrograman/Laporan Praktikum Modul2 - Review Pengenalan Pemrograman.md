@@ -5,7 +5,9 @@
 
 
 ___
- # Unguided
+ # Dasar Teori
+
+Bahasa Go atau yang biasa di sebut Go lang menawarkan pemrograman yang simpel namun andal, dengan sintaks yang lugas dan efisien. Program Go wajib memiliki package main dan fungsi main() sebagai gerbang awal eksekusi. Pengembangan meliputi penulisan kode dalam berkas .go, kompilasi dengan perintah go build, dan menjalankan program lewat terminal. Go menyediakan beragam tipe daTa seperti integer, float, boolean, dan string, serta mendukung deklarasi variabel yang fleksibel. Kontrol alur program mencakup perulangan for dalam berbagai bentuk, serta percabangan bersyarat dengan if-else dan switch-case untuk pengambilan keputusan.
 
 
 # SOAL 2A
