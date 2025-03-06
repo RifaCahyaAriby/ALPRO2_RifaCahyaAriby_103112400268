@@ -1,6 +1,4 @@
 <h1 align="center">Laporan Praktikum Modul3 - Fungsi</h1>
-
-___
 <center>Nama : Rifa Cahya Ariby <center>
 <center>NIM : 103112400268 <center>
 
@@ -24,7 +22,11 @@ Catatan: permutasi (P) dan kombinasi (C) dari n terhadap r (n ≥ r) dapat dihit
 
 
 ![Output](output/soal1-1.png)
+
+
 ![Output](output/soal1-2.png)
+
+
 ![Output](output/soal1-3.png)
 
 ``` go
