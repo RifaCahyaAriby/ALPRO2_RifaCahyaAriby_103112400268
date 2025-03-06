@@ -186,8 +186,6 @@ func main() {
 }
 ```
 
-## Output
-![Output](output/soal2m3.png)
 
 > Program Go ini menghitung komposisi dari tiga fungsi matematis dan menampilkan hasilnya. Berikut adalah kesimpulan singkatnya:
 > 
@@ -210,6 +208,11 @@ func main() {
 >     - `hofog`: Menghitung h(f(g(c))) — yaitu hasil dari fungsi `g` diteruskan ke `f`, lalu hasilnya diteruskan ke `h`.
 >         
 > - Hasil dari ketiga komposisi fungsi tersebut dicetak
+
+
+## Output
+![Output](output/soal2m3.png)
+
 
     
 
