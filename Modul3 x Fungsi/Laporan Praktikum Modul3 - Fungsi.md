@@ -21,9 +21,9 @@ Keluaran terdiri dari dua baris. Baris pertama adalah hasil permutasi dan kombin
 Catatan: permutasi (P) dan kombinasi (C) dari n terhadap r (n ≥ r) dapat dihitung dengan menggunakan persamaan berikut!
 
 
-![[soal1-1.png]]
-![[soal1-2.png]]
-![[soal1-3.png]]
+![Output](output/soal1-1.png)
+![Output](output/soal1-2.png)
+![Output](output/soal1-3.png)
 
 ``` go
 package main
@@ -98,7 +98,7 @@ func main() {
 
 ```
 ## Output
-![[soal1m3 1.png]]
+![Output](output/soal1m3.png)
 
 > Kode ini adalah program Go yang menghitung permutasi dan kombinasi dari dua pasangan angka yang diberikan sebagai input. Berikut adalah kesimpulan singkatnya:
 > 
@@ -115,7 +115,9 @@ Diberikan tiga buah fungsi matematika yaitu f(x) = x ^ 2 g(x) = x - 2 danh e(x) 
 Fungsi komposisi (fogoh)(x) artinya adalah f(g(h(x))) Tuliskan f(x) g(x) dan h(x) dalam bentuk function.
 Masukan terdiri dari sebuah bilangan bulat a, b dan c yang dipisahkan oleh spasi.
 Keluaran terdiri dari tiga baris. Baris pertama adalah (fogoh) (a) , baris kedua (gohof) (b) , dan baris ketiga adalah (hofog) (c)!
-![[soal2-1 1.png]]
+
+
+![Output](output/soal2-1.png)
 ``` go
 package main
 
@@ -181,7 +183,7 @@ func main() {
 ```
 
 ## Output
-![[soal2m3.png]]
+![Output](output/soal2m3.png)
 
 > Program Go ini menghitung komposisi dari tiga fungsi matematis dan menampilkan hasilnya. Berikut adalah kesimpulan singkatnya:
 > 
@@ -213,8 +215,8 @@ func main() {
 Masukan terdiri dari beberapa tiga baris. Baris pertama dan kedua adalah koordinat titik pusat dan radius dari lingkaran 1 dan lingkaran 2, sedangkan baris ketiga adalah koordinat titik sembarang. Asumsi sumbu x dan y dari semua titik dan juga radius direpresentasikan dengan bilangan bulat. 
 Keluaran berupa string yang menyatakan posisi titik "Titik di dalam lingkaran 1 dan 2", "Titik di dalam lingkaran 1", "Titik di dalam lingkaran 2", atau "Titik di luar lingkaran 1 dan 2".
 
-![[soal2-1.png]]
-![[soal2-2.png]]
+![Output](output/soal3-1.png)
+![Output](output/soal3-2.png)
 
 Catatan: lihat paket math dalam lampiran untuk menggunakan fungsi math.sqrt() untuk menghitung akar kuadrat.
 
@@ -310,6 +312,6 @@ func main() {
 > - Terakhir, program mencetak pesan yang sesuai dengan posisi titik terhadap kedua lingkaran.
 
 ## Output
-![[soal3m3.png]]
+![Output](output/soal3m3.png)
 
 
