@@ -20,7 +20,7 @@ Keluaran terdiri dari dua baris. Baris pertama adalah hasil permutasi dan kombin
 Catatan: permutasi (P) dan kombinasi (C) dari 𝑛 terhadap 𝑟 (𝑛 ≥ 𝑟) dapat dihitung dengan
 menggunakan persamaan berikut!
 
-![[soal1m4.png]]
+![Output](output/soal1m4.png)
 
 code
 ``` go
@@ -97,7 +97,7 @@ func main() {
 
 ## Output
 
-![[o1m4.png]]
+![Output](output/o1m4.png)
 
 Program ini dibuat untuk menghitung permutasi dan kombinasi dari dua pasang bilangan dengan menggunakan prosedur tanpa return.
 Pertama, program membaca empat bilangan sebagai input, yaitu `a, b, c, d`. Kemudian, nilai faktorial dihitung menggunakan prosedur `faktorial`, yang menerima sebuah bilangan `n` dan menyimpan hasil faktorialnya dalam variabel yang dikirim melalui pointer.
@@ -122,7 +122,7 @@ Satu baris keluaran berisi nama pemenang, jumlah soal yang diselesaikan, dan nil
 diperoleh. Nilai adalah total waktu yang dibutuhkan untuk menyelesaikan soal yang berhasil
 diselesaikan.
 
-![[soal2m4.png]]
+![Output](output/soal2m4.png)
 
 Keterangan:
 Astuti menyelesaikan 6 soal dalam waktu 287 menit, sedangkan Bertha 7 soal dalam waktu
@@ -193,7 +193,7 @@ func main() {
 ```
 
 ## Output
-![[o2m4.png]]
+![Output](output/o2m4.png)
 
 Pada program ini dinyatakan bahwa dalam sebuah kompetisi pemrograman, pemenang ditentukan berdasarkan jumlah soal yang berhasil diselesaikan dalam waktu sesingkat mungkin. Jika ada peserta dengan jumlah soal yang sama, maka peserta dengan total waktu penyelesaian yang lebih kecil akan menjadi pemenang. Program ini menggunakan pendekatan modular dengan prosedur `hitungSkor` untuk menghitung jumlah soal dan total waktu, serta `cariPemenang` untuk membaca data dan menentukan pemenang.
 
@@ -213,7 +213,7 @@ Masukan berupa satu bilangan integer positif yang lebih kecil dari 1000000.
 Keluaran terdiri dari satu baris saja. Setiap suku dari deret tersebut dicetak dalam baris yang
 dan dipisahkan oleh sebuah spasi.
 
-![[soal3m4.png]]
+![Output](output/soal3m4.png)
 
 ``` go
 package main
@@ -255,6 +255,6 @@ func main() {
 }
 ```
 ## Output
-![[o3m4.png]]
+![Output](output/o3m4.png)
 
 Kesimpulan dari program ini adalah bahwa program mencetak deret bilangan berdasarkan aturan Collatz (3n+1). Program akan terus membagi angka dengan 2 jika genap atau mengalikannya dengan 3 dan menambahkan 1 jika ganjil, hingga mencapai angka 1. Program ini efisien dan hanya memproses bilangan positif kurang dari 1.000.000.
