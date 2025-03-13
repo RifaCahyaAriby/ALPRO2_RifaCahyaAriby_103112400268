@@ -4,7 +4,6 @@
 
 # Dasar Teori
 
-> [!NOTE]
 > Fungsi adalah sekumpulan instruksi yang menghasilkan suatu nilai dengan memetakkan input ke output tertentu. Agar suatu subprogram disebut sebagai fungsi, harus memenuhi dua syarat utama:
 > 1. Mendeklarasikan tipe data yang akan dikembalikan.
 > 2. Memiliki pernyataan `return` dalam badan fungsi untuk mengembalikan nilai.
