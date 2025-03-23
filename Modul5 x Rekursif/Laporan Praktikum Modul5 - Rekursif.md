@@ -1,6 +1,8 @@
-___
+<h1 align="center">Laporan Praktikum Modul5 - Rekursif </h1>
+
 <center>Nama : Rifa Cahya Ariby <center>
 <center>NIM : 103112400268 <center>
+
 
 # Dasar Teori
 Rekursif adalah teknik dalam pemrograman yang memungkinkan suatu subprogram baik fungsi maupun prosedur untuk memanggil dirinya sendiri dalam menyelesaikan suatu masalah. Teknik ini dapat digunakan sebagai alternatif dari struktur kontrol perulangan (loop) untuk menyelesaikan berbagai permasalahan komputasi.
