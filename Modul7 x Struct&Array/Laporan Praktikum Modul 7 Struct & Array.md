@@ -1,4 +1,6 @@
-___
+<h1 align="center">Laporan Praktikum Modul 7 - Struct & Array</h1>
+
+
 <center>Nama : Rifa Cahya Ariby <center>
 <center>NIM : 103112400268 <center>
 
@@ -22,9 +24,11 @@ Array adalah struktur data yang digunakan untuk menyimpan sekumpulan elemen deng
 ### Latihan Soal Modul 7
 ### Soal 1
 
-> Suatu lingkaran didefinisikan dengan koordinat titik pusat (𝑐𝑥, 𝑐𝑦) dengan radius 𝑟. Apabila diberikan dua buah lingkaran, maka tentukan posisi sebuah titik sembarang (𝑥, 𝑦) berdasarkan dua lingkaran tersebut. Gunakan tipe bentukan titik untuk menyimpan koordinat, dan tipe bentukan lingkaran untuk menyimpan titik pusat lingkaran dan radiusnya.
+Suatu lingkaran didefinisikan dengan koordinat titik pusat (𝑐𝑥, 𝑐𝑦) dengan radius 𝑟. Apabila diberikan dua buah lingkaran, maka tentukan posisi sebuah titik sembarang (𝑥, 𝑦) berdasarkan dua lingkaran tersebut. Gunakan tipe bentukan titik untuk menyimpan koordinat, dan tipe bentukan lingkaran untuk menyimpan titik pusat lingkaran dan radiusnya.
 
 **Masukan** terdiri dari beberapa tiga baris. Baris pertama dan kedua adalah koordinat titik pusat dan radius dari lingkaran 1 dan lingkaran 2, sedangkan baris ketiga adalah koordinat titik sembarang. Asumsi sumbu x dan y dari semua titik dan juga radius direpresentasikan dengan bilangan bulat. 
+
+
 **Keluaran** berupa string yang menyatakan posisi titik "Titik di dalam lingkaran 1 dan 2", "Titik di dalam lingkaran 1", "Titik di dalam lingkaran 2", atau "Titik di luar lingkaran 1 dan 2".
 
 | No | Masukan             | Keluaran                                                                               |
@@ -39,6 +43,7 @@ Fungsi untuk menghitung jarak titik (a, b) dan (c, d) dimana rumus jarak adalah:
 $$
 jarak = \sqrt{(a - c)^2 + (b - d)^2}
 $$
+
 dan juga fungsi untuk menentukan posisi sebuah titik sembarang berada di dalam suatu lingkaran atau tidak.
 ``` 
 function jarak(p, q : titik) -> real {Mengembalikan jarak antara titik p(x,y) dan titik q(x,y)}
@@ -91,25 +96,24 @@ func main() {
 ```
 #### Output
 
-![Output](o1m7.png)
+![Output](output/o1m7.png)
 
-> [!Penjelasan]
 > Program di atas bertujuan untuk menentukan posisi suatu titik terhadap dua lingkaran. Program menerima input berupa koordinat pusat dan radius dari dua lingkaran, serta koordinat titik sembarang. Kemudian, jarak antara titik dan pusat lingkaran dihitung menggunakan rumus Euclidean. Berdasarkan hasil perhitungan tersebut, program memeriksa apakah titik berada di dalam salah satu lingkaran, kedua lingkaran, atau di luar keduanya. Hasil akhirnya ditampilkan dalam bentuk teks yang menjelaskan posisi titik terhadap lingkaran-lingkaran tersebut. Program ini menggunakan struktur data `struct` untuk merepresentasikan titik dan lingkaran, serta memanfaatkan fungsi untuk menghitung jarak dan menentukan posisi titik relatif terhadap lingkaran.
 
 
 
 ### Soal 2
 
-> Sebuah array digunakan untuk menampung sekumpulan bilangan bulat. Buatlah program yang digunakan untuk mengisi array tersebut sebanyak N elemen nilai. Asumsikan array memiliki kapasitas penyimpanan data sejumlah elemen tertentu. 
-> Program dapat menampilkan beberapa informasi berikut: 
-> a. Menampilkan keseluruhan isi dari array. 
-> b. Menampilkan elemen-elemen array dengan indeks ganjil saja. 
-> c. Menampilkan elemen-elemen array dengan indeks genap saja (asumsi indek ke-0 adalah genap). 
-> d. Menampilkan elemen-elemen array dengan indeks kelipatan bilangan x. x bisa diperoleh dari masukan pengguna. 
-> e. Menghapus elemen array pada indeks tertentu, asumsi indeks yang hapus selalu valid. Tampilkan keseluruhan isi dari arraynya, pastikan data yang dihapus tidak tampil 
-> f. Menampilkan rata-rata dari bilangan yang ada di dalam array. 
-> g. Menampilkan standar deviasi atau simpangan baku dari bilangan yang ada di dalam array tersebut. 
-> h. Menampilkan frekuensi dari suatu bilangan tertentu di dalam array yang telah diisi tersebut.
+Sebuah array digunakan untuk menampung sekumpulan bilangan bulat. Buatlah program yang digunakan untuk mengisi array tersebut sebanyak N elemen nilai. Asumsikan array memiliki kapasitas penyimpanan data sejumlah elemen tertentu. 
+Program dapat menampilkan beberapa informasi berikut: 
+a. Menampilkan keseluruhan isi dari array. 
+b. Menampilkan elemen-elemen array dengan indeks ganjil saja. 
+c. Menampilkan elemen-elemen array dengan indeks genap saja (asumsi indek ke-0 adalah genap). 
+d. Menampilkan elemen-elemen array dengan indeks kelipatan bilangan x. x bisa diperoleh dari masukan pengguna. 
+e. Menghapus elemen array pada indeks tertentu, asumsi indeks yang hapus selalu valid. Tampilkan keseluruhan isi dari arraynya, pastikan data yang dihapus tidak tampil 
+f. Menampilkan rata-rata dari bilangan yang ada di dalam array. 
+g. Menampilkan standar deviasi atau simpangan baku dari bilangan yang ada di dalam array tersebut. 
+h. Menampilkan frekuensi dari suatu bilangan tertentu di dalam array yang telah diisi tersebut.
 
 #### Code Program GO
 ``` go
@@ -214,14 +218,13 @@ func main() {
 
 #### Output
 
-![Output](o2m7.png)
+![Output](output/o2m7.png)
 
-> [!Penjelasan]
 > Secara keseluruhan, program ini memberikan alat untuk melakukan analisis dasar pada kumpulan data numerik dalam bentuk array, memungkinkan pengguna untuk melakukan berbagai operasi statistik dan manipulasi data.
 
 ### Soal 3
 
-> Sebuah program digunakan untuk menyimpan dan menampilkan nama-nama klub yang memenangkan pertandingan bola pada suatu grup pertandingan. Buatlah program yang digunakan untuk merekap skor pertandingan bola 2 buah klub bola yang berlaga. Pertama-tama program meminta masukan nama-nama klub yang bertanding, kemudian program meminta masukan skor hasil pertandingan kedua klub tersebut. Yang disimpan dalam array adalah nama-nama klub yang menang saja. Proses input skor berhenti ketika skor salah satu atau kedua klub tidak valid (negatif). Di akhir program, tampilkan daftar klub yang memenangkan pertandingan.
+Sebuah program digunakan untuk menyimpan dan menampilkan nama-nama klub yang memenangkan pertandingan bola pada suatu grup pertandingan. Buatlah program yang digunakan untuk merekap skor pertandingan bola 2 buah klub bola yang berlaga. Pertama-tama program meminta masukan nama-nama klub yang bertanding, kemudian program meminta masukan skor hasil pertandingan kedua klub tersebut. Yang disimpan dalam array adalah nama-nama klub yang menang saja. Proses input skor berhenti ketika skor salah satu atau kedua klub tidak valid (negatif). Di akhir program, tampilkan daftar klub yang memenangkan pertandingan.
 
 Perhatikan sesi interaksi pada contoh berikut ini
 (teks bergaris bawah adalah input/read) 
@@ -291,15 +294,14 @@ func main() {
 
 #### Output
 
-![Output](o3m7.png)
+![Output](output/o3m7.png)
 
-> [!Penjelasan]
 > Program ini dirancang untuk mencatat hasil pertandingan sepak bola antara dua klub. Pengguna diminta untuk memasukkan nama klub A dan klub B, kemudian program akan meminta skor dari setiap pertandingan yang berlangsung. Proses ini berlanjut hingga pengguna memasukkan skor negatif, yang menandakan bahwa tidak ada pertandingan lagi yang akan dicatat.
-> 
+ 
 
 ### Soal 4
 
-> Sebuah array digunakan untuk menampung sekumpulan karakter, Anda diminta untuk membuat sebuah subprogram untuk melakukan membalikkan urutan isi array dan memeriksa apakah membentuk palindrom.
+Sebuah array digunakan untuk menampung sekumpulan karakter, Anda diminta untuk membuat sebuah subprogram untuk melakukan membalikkan urutan isi array dan memeriksa apakah membentuk palindrom.
 
 ``` go
 package main 
@@ -414,7 +416,6 @@ func main() {
 
 #### Output
 
-![Output](o4m7.png)
+![Output](output/o4m7.png)
 
-> [!Penjelasan]
 > Program di atas memungkinkan pengguna untuk memasukkan sekumpulan karakter ke dalam array hingga menemukan tanda titik (.), kemudian mencetak teks dalam urutan normal maupun terbalik, serta memeriksa apakah teks tersebut merupakan palindrom. Dengan pendekatan modular menggunakan fungsi-fungsi terpisah, program ini efisien dalam memproses dan menganalisis karakter dalam array, menjadikannya berguna untuk berbagai operasi manipulasi string sederhana.
