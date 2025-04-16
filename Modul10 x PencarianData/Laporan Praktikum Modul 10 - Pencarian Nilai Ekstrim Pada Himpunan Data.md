@@ -1,4 +1,5 @@
-___
+<h1 align="center">Laporan Praktikum Modul 10 - Pencarian Data </h1>
+
 Nama : Rifa Cahya Ariby 
 NIM : 103112400268
 
@@ -227,14 +228,22 @@ func main() {
 
 Perhatikan sesi interaksi pada contoh berikut ini (teks bergaris bawah adalah input/read) 
 
-> Masukan banyak data berat balita : 4 
-> Masukan berat balita ke-1: 5.3 
-> Masukan berat balita ke-2: 6.2 
-> Masukan berat balita ke-3: 4.1 
-> Masukan berat balita ke-4: 9.9 
-> Berat balita minimum: 4.10 kg 
+> Masukan banyak data berat balita : 4
+> 
+> Masukan berat balita ke-1: 5.3
+> 
+> Masukan berat balita ke-2: 6.2
+> 
+> Masukan berat balita ke-3: 4.1
+> 
+> Masukan berat balita ke-4: 9.9
+> 
+> Berat balita minimum: 4.10 kg
+> 
 > Berat balita maksimum: 9.90 kg
+> 
 >  Rerata berat balita: 6.38 kg
+> 
 
 #### code
 ``` go
