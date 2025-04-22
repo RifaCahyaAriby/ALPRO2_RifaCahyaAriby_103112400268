@@ -1,6 +1,5 @@
+<h1 align="center"> Laporan Praktikum Modul 11 - Pencarian Nilai Acak Pada Himpunan Data </h1>
 
-Laporan Praktikum Modul 11 - Pencarian Nilai Acak Pada Himpunan Data
----
 Nama : Rifa Cahya Ariby 
 NIM : 103112400268
 
