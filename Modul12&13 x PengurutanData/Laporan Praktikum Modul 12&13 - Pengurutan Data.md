@@ -1,4 +1,4 @@
-## Laporan Praktikum Modul 12&13 - Pengurutan Data
+<h1 align=center> Laporan Praktikum Modul 12&13 - Pengurutan Data </h1>
 
 
 Nama : Rifa Cahya Ariby 
@@ -464,6 +464,8 @@ Program ini digunakan untuk mengurutkan dan menampilkan deretan angka dari be
 | No  | Masukan                               | Keluaran |
 | --- | ------------------------------------- | -------- |
 | 1.  | 7 23 11 0 5 19 2 29 3 13 17 0   -5313 | 11<br>12 |
+
+
 **Keterangan**: Sampai bilangan 0 yang pertama, data terbaca adalah 7 23 11, setelah tersusun: 7 11 23, maka median saat itu adalah 11
 Sampai bilangan 0 yang kedua, data adalah 7 23 11 5 19 2 29 3 13 17, setelah tersusun diperoleh: 2 3 5 7 **11 13** 17 19 23 29. Karena ada 10 data, genap, maka median adalah (11+13)/2=12. 
 **Petunjuk**: Untuk setiap data bukan 0 (dan bukan marker -5313541) simpan ke dalam array, Dan setiap kali menemukan bilangan 0, urutkanlah data yang sudah tersimpan dengan menggunakan metode insertion sort dan ambil mediannya.
