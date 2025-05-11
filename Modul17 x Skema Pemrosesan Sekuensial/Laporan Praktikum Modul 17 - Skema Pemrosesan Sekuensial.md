@@ -1,4 +1,4 @@
-## Laporan Praktikum Modul 17 - Skema Pemrosesan Sekuensial
+<h1 align=center> Laporan Praktikum Modul 17 - Skema Pemrosesan Sekuensial </h1>
 
 
 Nama : Rifa Cahya Ariby 
@@ -157,7 +157,13 @@ Program di atas adalah program dalam bahasa Go yang menerima input sebuah string
 
 ### Soal 3
 3) Empat daerah A, B, C, dan D yang berdekatan ingin mengukur curah hujan. Keempat daerah tersebut digambarkan pada bidang berikut:
+
+
+
 ![Output](output/s3m17.png)
+
+
+
 Misal curah hujan dihitung berdasarkan banyaknya tetesan air hujan. Setiap tetesan berukuran 0.0001 ml curah hujan. Tetesan air hujan turun secara acak dari titik (0,0) sampai (1,1). Jika diterima input yang menyatakan banyaknya tetesan air hujan. Tentukan curah hujan untuk keempat daerah tersebut. 
 Buatlah program yang menerima input berupa banyaknya tetesan air hujan. Kemudian buat koordinat/titik (x, y) secara acak dengan menggunakan fungsi **rand.Float64()**. Hitung dan tampilkan banyaknya tetesan yang jatuh pada daerah A, B, C dan D. Konversikan satu tetesan berukuran 0.0001 milimeter.
 **Catatan**: Lihat lampiran untuk informasi menggunakan paket math/rand untuk menggunakan **rand.Float64()** yang menghasilkan bilangan riil acak [0..1]. 
