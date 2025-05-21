@@ -4,23 +4,39 @@ Nama : Rifa Cahya Ariby
 NIM : 103112400268
 
 ## Dasar Teori
+
 Mesin abstrak adalah gambaran sederhana dari komputer yang digunakan untuk memahami bagaimana algoritma bekerja.
 Mesin ini bukan komputer sungguhan, tapi hanya model atau bayangan tentang bagaimana sebuah perintah dijalankan langkah demi langkah. Mesin abstrak membantu kita belajar logika program tanpa harus langsung memikirkan hal teknis seperti bahasa pemrograman atau perangkat keras.
 
 ## Unguided
+
 ## SOAL 1
+
 1) Implementasi operasi dasar mesin domino sebagai sebuah subprogram: 
-   a) Buat tipe data kartu domino (Domino) yang menyimpan informasi 
-   ➢ gambar (suit) kedua sisi kartu 
-   ➢ nilai kartu 
-   ➢ Boolean data yang menyatakan kartu ini balak atau bukan 
-   ➢ Buat tipe data satu set kartu domino (Dominoes) 
-   ➢ Array menyimpan 28 kartu Domino 
-   ➢ Jumlah kartu tersisa dalam array tersebut 
-	b) prosedur kocokKartu(Dominoes) 
-	c) fungsi ambilKartu(Dominoes) → Domino 
-	d) fungsi gambarKartu(Domino,suit int) → int 
+
+    a) Buat tipe data kartu domino (Domino) yang menyimpan informasi
+   
+   ➢ gambar (suit) kedua sisi kartu
+   
+   ➢ nilai kartu
+   
+   ➢ Boolean data yang menyatakan kartu ini balak atau bukan
+   
+   ➢ Buat tipe data satu set kartu domino (Dominoes)
+   
+   ➢ Array menyimpan 28 kartu Domino
+   
+   ➢ Jumlah kartu tersisa dalam array tersebut
+   
+	b) prosedur kocokKartu(Dominoes)
+
+	c) fungsi ambilKartu(Dominoes) → Domino
+
+	d) fungsi gambarKartu(Domino,suit int) → int
+
 	e) fungsi nilaiKartu(Domino) → int
+
+
 	
  ``` go
 package main
@@ -119,9 +135,13 @@ func main() {
 }
 ```
 
+
+
 ## Output
 ![Output](output/o1m18.png)
 Program diatas merupakan implementasi sederhana permainan kartu domino menggunakan bahasa pemrograman Go, yang bertujuan untuk membuat set kartu domino lengkap, mengacak urutan kartu, serta mengambil dan menampilkan beberapa kartu secara acak sebagai simulasi awal dari permainan domino.
+
+
 
 ## SOAL 2
 2) Realisasi aksi berikut menggunakan operasi-operasi dasar mesin domino: 
@@ -247,10 +267,15 @@ func sepasangKartu(kartu1 KartuDomino, kartu2 KartuDomino) bool {
 }
 ```
 
+
 ## Output
 ![Output](output/o2m18.png)
 Program diatas adalah simulasi permainan domino sederhana yang dibuat menggunakan bahasa pemrograman Go. Program ini terdiri dari beberapa bagian utama, yaitu pembuatan set kartu domino lengkap, pengacakan kartu, serta pengambilan dan penampilan beberapa kartu secara acak. Selain itu, program ini juga mendemonstrasikan cara mencari kartu yang memiliki sisi yang sama dengan kartu target menggunakan fungsi galiKartu, serta mengecek apakah dua kartu memiliki total nilai 12 dengan fungsi sepasangKartu. Melalui program ini, pemahaman tentang struktur data, fungsi, dan operasi dasar dalam pemrograman dapat dilatih secara praktis.
 
+
+
+
+## SOAL 3
 
 
 3) Implementasi salah satu permainan domino. Lihat lampiran untuk deskripsi permainan Gapleh
@@ -381,18 +406,32 @@ func tampilkanKartu(kartu [4]Kartu, i int) {
 Program diatas adalah simulasi permainan kartu domino untuk empat pemain, di mana setiap pemain menerima empat kartu acak dari set domino lengkap, lalu dua nilai dihitung dari kartu masing-masing. Nilai tersebut diambil dari penjumlahan dua kartu pertama dan dua kartu berikutnya, dihitung modulo 10, lalu hasilnya ditampilkan untuk setiap pemain.
 
 
-4) Implementasi mesin abstrak karakter yang bekerja terhadap untaian karakter (yang diakhiri dengan penanda titik (".") dan mempunyai sejumlah operasi dasar. 
+
+
+4) Implementasi mesin abstrak karakter yang bekerja terhadap untaian karakter (yang diakhiri dengan penanda titik (".") dan mempunyai sejumlah operasi dasar.
+   
 	a) Operasi dasar mesin karakter:
-	➢ Prosedur start(); yang menyiapkan mesin karakter di awal rangkaian karakter. 
-	➢ Prosedur maju(); yang memajukan pembaca ke posisi karakter berikutnya. 
-	➢ Fungsi eop(); yang mengembalikan nilai true apabila sudah mencapai akhir rangkaian, sampai ke penanda titik ("."). 
+
+	➢ Prosedur start(); yang menyiapkan mesin karakter di awal rangkaian karakter.
+
+	➢ Prosedur maju(); yang memajukan pembaca ke posisi karakter berikutnya.
+
+	➢ Fungsi eop(); yang mengembalikan nilai true apabila sudah mencapai akhir rangkaian, sampai ke penanda titik (".").
+
 	➢ Fungsi cc(); yang mengembalikan karakter yang sedang terbaca, atau berada pada posisi pembacaan mesin.
+
 	b) Dengan operasi dasar di atas buat algoritma untuk:
-	➢ Membaca seluruh karakter yang diberikan ke mesin karakter tersebut. 
-	➢ Menghitung berapa banyak karakter yang terbaca. 
-	➢ Menghitung ada berapa huruf "A" yang terbaca. 
-	➢ Menghitung frekuensi kemunculan huruf "A" terhadap seluruh karakter terbaca. 
+
+	➢ Membaca seluruh karakter yang diberikan ke mesin karakter tersebut.
+
+	➢ Menghitung berapa banyak karakter yang terbaca.
+
+	➢ Menghitung ada berapa huruf "A" yang terbaca.
+
+	➢ Menghitung frekuensi kemunculan huruf "A" terhadap seluruh karakter terbaca.
+
 	➢ Menghitung ada berapa kata "LE" (pasangan berturutan huruf "L" dan "E") yang terbaca
+
 ``` go
 package main
 
@@ -473,6 +512,7 @@ func main() {
 }
 ```
 ## Output
+
 
 ![Output](output/o4m18.png)
 Program diatas merupakan sebuah alat analisis teks sederhana yang berfungsi sebagai mesin karakter untuk membaca dan memproses sebuah kalimat. Program ini memulai pembacaan dari awal kalimat, lalu membaca setiap karakter satu per satu hingga menemukan tanda titik sebagai penanda akhir pemrosesan. Selama proses pembacaan, program akan menghitung total karakter yang terbaca (tidak termasuk spasi), jumlah kemunculan huruf ‘A’, serta jumlah pasangan huruf ‘LE’ yang muncul secara berurutan. Setelah seluruh karakter diproses, program akan menampilkan hasil analisis berupa total karakter terbaca, jumlah huruf ‘A’, frekuensi kemunculan huruf ‘A’ (dibandingkan dengan total karakter), dan jumlah pasangan huruf ‘LE’ yang ditemukan dalam kalimat tersebut.
