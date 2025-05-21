@@ -1,4 +1,4 @@
-# Laporan Praktikum Modul 18 - Mesin Abstrak
+<h1 align=center>Laporan Praktikum Modul 18 - Mesin Abstrak</h1>
 
 Nama : Rifa Cahya Ariby 
 NIM : 103112400268
