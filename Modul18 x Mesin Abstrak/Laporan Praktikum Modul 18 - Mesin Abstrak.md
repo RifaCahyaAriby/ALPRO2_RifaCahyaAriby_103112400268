@@ -22,7 +22,7 @@ Mesin ini bukan komputer sungguhan, tapi hanya model atau bayangan tentang bagai
 	d) fungsi gambarKartu(Domino,suit int) → int 
 	e) fungsi nilaiKartu(Domino) → int
 	
-	``` go
+ ``` go
 package main
 
 import (
